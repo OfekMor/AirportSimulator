@@ -1,0 +1,54 @@
+.welcomBtn{  
+    font-size: 5rem;
+    color: rgb(31, 31, 34);
+    letter-spacing: 0.025em; 
+    padding: 1em 2em; 
+    user-select: none;
+    border: 0.125em solid currentColor;
+    outline: 0.125em solid currentColor;
+    outline-offset: 60em;
+    opacity: 80%;
+    border-radius: 100px;
+    transition: outline-offset 250ms ease-in-out, opacity 250ms ease-in-out;
+}
+
+.planes{
+    width: 600px;
+    height: 350px;
+    animation: mymove 3s;
+    animation-delay: 0s;
+    background-image: url('../../Assets/Images/Plane.png');
+}
+
+@keyframes mymove {
+    from {left: 260em;}
+    to {left: 60em;}
+  }
+
+.welcomBtn:hover{
+    cursor: pointer;
+    outline-offset: 0.2em;
+    outline-color: aqua;
+    opacity: 100%;
+}
+
+.welcomBtn:active{
+    outline-offset: -0.125em;
+    outline-color: greenyellow;
+}
+
+@media (max-width: 539px){
+    .welcomBtn{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 424px){
+    .welcomBtn{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 319px){
+    .welcomBtn{
+        font-size: 2rem;
+    }
+}
