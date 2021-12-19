@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cP509iZjnQhRAeTFe9mXaufBGp8e9GD86rtosbAjn2GoQxfz28mPsacEvCWzhr248OLfJd5Xep4vTfpzPaXKxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ofekm\\source\\repos\\AirportSImulation\\AirportModels\\AirportModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ofekm\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
+    "C:\\Users\\ofekm\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

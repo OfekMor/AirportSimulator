@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirportDAL\AirportDAL.csproj" />
+    <ProjectReference Include="..\AirportModels\AirportModels.csproj" />
+    <ProjectReference Include="..\Simulator\Simulator.csproj" />
+  </ItemGroup>
+
+</Project>
